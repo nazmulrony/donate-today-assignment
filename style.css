@@ -153,6 +153,59 @@ h3 {
     margin: 1rem 0;
 }
 
+.section-feedback {
+    padding: 4rem 18rem;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.feedback-text {
+    font-size: 18px;
+    margin: 0 14rem;
+}
+
+.feedback-container {
+    background-image: linear-gradient(to left, #7ed56f, #28b485);
+    color: #333;
+    height: 10rem;
+    padding: 1rem;
+    display: flex;
+    margin: 2rem 0;
+    border-end-end-radius: 5px;
+    border-radius: 8px;
+}
+.feedback-photo-box {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.feedback-photo {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.feedback-content {
+    width: 70%;
+    text-align: left;
+    margin: 1rem;
+}
+
+.feedback-input {
+    display: block;
+    width: 80%;
+    height: 2rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid #55c57a;
+    margin: 3rem auto 0;
+    font-size: 16px;
+}
+
 .section-update {
     padding: 4rem 10rem;
     background-color: #f7f7f7;
